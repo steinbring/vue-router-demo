@@ -1,4 +1,9 @@
-# vue-router-demo
+# Vue Router Demo
+Similar to [https://github.com/steinbring/vue-demo](https://github.com/steinbring/vue-demo), this project is meant to a demo of some basic [Vue Router](https://router.vuejs.org/) concepts.
+
+Demo Site: [https://vue-router-demo.jws.app/](Demo Site: https://vue-router-demo.jws.app/)
+
+Note: The demo site is driven by the main branch, using [render](https://render.com/). Updates to the main branch trigger the build command `yarn build`.
 
 ## Project setup
 ```
