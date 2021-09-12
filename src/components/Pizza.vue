@@ -8,6 +8,8 @@
           <p>This is the pizza vue file.</p>
 
           {{ $route.params.id }}
+
+          {{selectedPizza}}
         </div>
       </div>
     </div>
@@ -19,6 +21,11 @@ export default {
   name: 'Pizza',
   props: {
     msg: String
+  },
+  computed: {
+    selectedPizza: function() {
+      return this.$parent.pizzas.find(value => value.slug === this.$route.params.id);
+    }
   }
 }
 </script>
