@@ -39,31 +39,31 @@
             slug : 'cheese',
             name : 'Cheese',
             toppings : ['Cheese'],
-            price : {small : '12.25', large: '13.75'}
+            prices : { small : '12.25', large: '13.75' }
           },
           {
             slug : 'cheese-and-sausage',
             name : 'Cheese and Sausage ',
             toppings : ['Cheese', 'Sausage'],
-            price : {small : '13.50', large: '15.50'}
+            prices : { small : '13.50', large: '15.50' }
           },
           {
             slug : 'special',
             name : 'Special',
             toppings : ['Cheese', 'Sausage', 'Mushrooms', 'Onions'],
-            price : {small : '15.25', large: '17.75'}
+            prices : { small : '15.25', large: '17.75' }
           },
           {
             slug : 'ebf',
             name : 'Everything But Fish (Anchovies)',
             toppings : ['Cheese', 'Sausage', 'Pepperoni', 'Mushrooms', 'Onions', 'Green Peppers', 'Black Olives'],
-            price : {small : '19.75', large: '23.00'}
+            prices : { small : '19.75', large: '23.00' }
           },
           {
             slug : 'everything',
             name : 'Everything',
             toppings : ['Cheese', 'Sausage', 'Pepperoni', 'Mushrooms', 'Onions', 'Green Peppers', 'Black Olives'],
-            price : {small : '23.25', large: '25.75'}
+            prices : { small : '23.25', large: '25.75' }
           }
         ]
       }
