@@ -4,12 +4,18 @@
     <div class="card">
       <div class="card-content">
         <div class="content">
-          <h1>Pizza</h1>
-          <p>This is the pizza vue file.</p>
-
-          {{ $route.params.id }}
-
-          {{selectedPizza}}
+          <h1>{{selectedPizza.name}}</h1>
+          <h2>Toppings:</h2>
+          <ul>
+            <li v-for="topping in selectedPizza.toppings" :key="topping" v-bind:value="topping">{{topping}}</li>
+          </ul>
+          <h2>Price:</h2>
+          <p>
+            Small: ${{selectedPizza.prices.small}}
+          </p>
+          <p>
+            Large: ${{selectedPizza.prices.large}}
+          </p>
         </div>
       </div>
     </div>
